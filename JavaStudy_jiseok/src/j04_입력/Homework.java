@@ -10,7 +10,19 @@ public class Homework {
 		 * 참이면 윤년
 		 * 거짓이면 윤년이 아님
 		 */
-
+		Scanner sc = new Scanner(System.in);
+		
+		int year = 2000;
+		System.out.print("입력: ");
+		year = sc.nextInt();
+		
+		year = year % 4 == 0 
+				&& year % 100 != 0 
+				|| year % 400 == 0 
+				? 1 : 0 ;
+		
+		System.out.println("결과: " + year);
+		
 	}
 
 }
