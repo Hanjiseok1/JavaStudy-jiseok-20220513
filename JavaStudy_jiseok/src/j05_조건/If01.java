@@ -1,6 +1,10 @@
 package j05_조건;
 
 public class If01 {
+	/*
+	 * 조건문 if
+	 * if - else if - else 순으로 작성하기
+	 */
 
 	public static void main(String[] args) {
 		int num = 5;
