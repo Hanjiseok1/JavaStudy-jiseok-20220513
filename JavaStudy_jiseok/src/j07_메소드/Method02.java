@@ -8,7 +8,7 @@ package j07_메소드;
 public class Method02 {
 	
 	// void의 뜻 - 공허하다, 비어있다
-	// void를 사용할 경우 반환값이 없음.
+	// void를 사용할 경우 반환값이 없음.(return이 없음.)
 	
 	//매개변수가 없으면서 반환도 없는 메소드
 	public static void test1() {
