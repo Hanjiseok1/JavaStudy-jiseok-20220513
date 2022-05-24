@@ -1,4 +1,4 @@
-package 클래스_휴대폰;
+package j08_클래스.휴대폰;
 
 public class PhoneMain {
 	public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package 클래스_자동차;
-
-import j08_클래스.FishBun;
+package j08_클래스.자동차;
 
 /*
  * 자동차에 관한 입출력 프로그램 만들기
