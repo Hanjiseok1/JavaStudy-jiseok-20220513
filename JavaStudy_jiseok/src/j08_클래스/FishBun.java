@@ -11,7 +11,8 @@ public class FishBun { //변수
 	String dough;
 	
 	FishBun(){ //생성자
-		System.out.println("생성자 호출");
+		System.out.println("생성자 호출"); 
+		//클래스명과 같다. 반환자료형이 생략되어있다 또한 메소드와 똑같은 동작을 한다. 주소값을 반환한다.
 	}
 	
 	void showInfo() { //메소드
