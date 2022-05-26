@@ -40,7 +40,7 @@ public class Method02 {
 	public static void test6() {
 		for(int i = 0; i < 10; i++) {
 			System.out.println(i);
-			if(i ==6) {
+			if(i == 3) {
 				System.out.println("메소드 탈출");
 				//break;     // break는 메소드를 멈추는게 아니라 반복을 멈추는것임
 				return;      // return은 언제든지 호출가능하지만 리턴뒤로 명령어는 쓰지못함.

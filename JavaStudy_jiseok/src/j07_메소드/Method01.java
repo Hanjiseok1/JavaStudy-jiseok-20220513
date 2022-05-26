@@ -1,7 +1,7 @@
 package j07_메소드;
 
 import java.util.Scanner;
-
+// 메소드란? 내가 하고싶음 기능을 만들어놓은것
 // official 뜻 - 공식
 // 메소드(함수)의 이름을 지을때 동사 형태
 // 변수는 명사 형태

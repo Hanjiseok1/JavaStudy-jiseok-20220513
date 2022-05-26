@@ -4,6 +4,8 @@ package j10_클래스기본정리.repository;
  * Entity(독립체) Class
  * 
  * 정보만 담는 객체를 Entity 객체라고 한다.
+ * 
+ * new가 붙으면 생성임.
  */
 public class User {
 	private String usercode;
