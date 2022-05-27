@@ -6,7 +6,7 @@ import j10_클래스기본정리.service.UserService;
 public class UserManagementController {
 	//변수는 특별한 일 빼고는 private으로 줌
 	private UserService userService;
-	private User[] users; //User객체를 담을수있는 공간 5개를 만듬.
+	private User[] users; //User객체를 담을수있는 공간 n개를 만듬.
 	
 	public UserManagementController(UserService userService) {
 		this.userService = userService;
