@@ -13,6 +13,7 @@ public class SinglrtonMain {
 		Singleton singleton2 = Singleton.getInstance();
 		singleton2.setCount(20); 
 		singleton2.printInfo();
+
 	}
 
 }
