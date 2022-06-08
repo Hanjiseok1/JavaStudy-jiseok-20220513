@@ -7,15 +7,26 @@ package j22_람다식;
 public class Main {
 
 	public static void main(String[] args) {
-		Math<Integer, Integer> plusLamda = (v1, v2) -> v1 + v2;
-		System.out.println(plusLamda.calc(10, 20));
-
-		Math<Integer, Double> plusLamda2 = (v1, v2) -> {
-			System.out.println("v1: " + v1);
-			System.out.println("v2: " + v2);
-			return v1 + v2;
-			};
-		System.out.println(plusLamda2.calc(30, 40.5));
+		Math2 m2_1 = new Math2Imlp(); 
+		Math2 m2_2 = new Math2() {
+			@Override
+			public double calc(double value1, double value2) {
+				value1 += 2;
+				value2 -= 1;
+				return value1 * value2;
+			}
+		};
+		//결과가 return 밖에 없을 때 중괄호({}) 생략, 중괄호가 있을 경우 return을 사용해야함 
+		Math2 m2_3 = (v1, v2) -> v1 / v2;
+		
+		Math2 m2_4 = (v1, v2) -> { //람다식을 정의할때 쓰는 중괄호는 클래스의 중괄호가 아님
+		v1 += 2;
+		v2 -= 1;
+		return v1 % v2;
+		};
+		
+		double t = m2_3.calc(10, 2);
+		System.out.println(t);
 	}
 
 }

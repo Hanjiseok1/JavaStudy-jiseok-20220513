@@ -42,5 +42,7 @@ public class ArrayListEx {
 		for(int i = 0; i < strArrayList.size(); i++) {
 			System.out.println(strArrayList.get(i));
 		}
+		
+		strArrayList.forEach(r -> {System.out.println(r);}); //return자료형이 보이드일경우 중괄호 생략이 가능함
 	}
 }
